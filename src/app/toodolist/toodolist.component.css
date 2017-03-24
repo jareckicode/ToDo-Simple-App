@@ -1,0 +1,86 @@
+.app-box {
+  background-color: #fff;
+  width: 30%;
+  margin: 4em auto;
+  padding: 1em 1em 2em 1em;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.center-content {
+    text-align: center;
+}
+
+input[type="checkbox"] {
+  font-size: 1em;
+  margin-left: 0;
+}
+
+.title {
+  color: rgba(38,194,129,1);
+  padding: 1em 0 1em 0;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.newTask {
+  padding: 10px 15px;
+  font-size: 1.5em;
+  border: 0;
+  font-weight: 100;
+  display: inline-block;
+  width: 85%;
+  margin-left: -15px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #eee;
+}
+
+.list-todo {
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.list-todo li {
+  padding: 10px 15px;
+  font-size: 1.5em;
+
+  border-bottom: 1px solid #eee;
+  margin: 5px 0;
+}
+
+
+
+.delete-icon {
+  cursor: pointer;
+  float: right;
+  border: 0;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  color: #ddd;
+
+  font-size: 1em;
+
+
+
+
+}
+
+.button {
+  border: 0;
+  background-color: #fff;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #eee;
+}
